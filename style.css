@@ -1,0 +1,113 @@
+body {
+    background: rgba(26,29,48,255);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #7d5fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-bar {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(21,24,39,255);
+    border-radius: 20px;
+    height: 270px;
+    border: 2px , solid rgb(0, 0, 0);
+}
+
+#currency, #cart, #login {
+    background: #7d5fff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+#cart {
+    background: transparent;
+    border: 1px solid #7d5fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7d5fff;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 20px;
+    width: 160px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.welcome {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 70%;
+    margin-left:170px;
+    margin-top: 144px;
+    font-size: 30px;
+}
+
+.log-in{
+    display: flex;
+    gap: 10px;
+}
+
+aside {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 25%;
+    background-color: rgba(21,24,39,255);
+    border: 2px, solid white;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 50px;
+    margin-top: 180px;
+}
+
+aside ul {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgba(26,29,48,255);
+    border: 2px, solid white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 25px;
+}
+.hover-1 :hover{
+    background-color: rgb(0, 0, 0);
+}
+
